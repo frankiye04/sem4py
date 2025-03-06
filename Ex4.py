@@ -1,0 +1,6 @@
+my_tuple=(23,1,45,12,8,19)
+my_list=list(my_tuple)
+sorted_list=sorted(my_list)
+print("Original Tuple:",my_tuple)
+print("Converted List:",my_list)
+print("Sorted List:",sorted_list)

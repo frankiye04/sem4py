@@ -1,0 +1,7 @@
+source_file = open('C:/Useres/GPTC/Desktop/source.txt', 'r')
+destination_file = open('C:/Useres/GPTC/Desktop/destination.txt', 'w')
+content = source_file.read()
+destination_file.write(content)
+source_file.close()
+destination_file.close()
+print("Content has been copied successfully from source.txt to destination.txt.") 
